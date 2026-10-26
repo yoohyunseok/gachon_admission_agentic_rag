@@ -1,0 +1,37 @@
+# API 키
+.env
+.env.*
+
+# 시험 안내 자료 (강사님 자료), 수업 예제 노트북, 시험 제출본
+midterm/README.pdf
+midterm/sample.json
+midterm/유현석_202235432.ipynb
+midterm/202235432_유현석.ipynb
+
+# 루트의 gachon_admission_agentic_rag.ipynb와 같은 내용인 예전 작업용 노트북
+work/rag.ipynb
+
+# 모의고사 노하우·템플릿, 개인 에이전트 설정, 메모
+RAG_KNOWHOW.md
+EVALSET_KNOWHOW.md
+AGENTS.md
+templates/
+examples/
+.claude/
+*.txt
+
+# 인덱스 캐시 (파싱 결과, Upstage 응답, 임베딩, Chroma DB) — 실행하면 다시 만들어짐
+rag_index/
+chroma_db/
+cache/
+
+# 채점 로그·결과
+*.log
+work/final_result.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
